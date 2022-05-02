@@ -12,7 +12,7 @@
       class="uploadMarkdown"
       @click="clickMarkdownFileInput"
     >
-      Upload file
+      Load markdown
     </button>
     <textarea v-model="textInput" class="textInput"></textarea>
     <div v-html="markdownViewer" class="markdownViewer"></div>
